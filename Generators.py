@@ -32,7 +32,7 @@ def fibo(n):
 
 x=fibo(10)
 
-# Either this or....
+# Either this or:
 print(x.__next__())
 print(x.__next__())
 print(x.__next__())
@@ -41,6 +41,7 @@ print(x.__next__())
 print(x.__next__())
 print(x.__next__())
 
-# ..This
+# :This
 for i in x:
+
     print(i)
