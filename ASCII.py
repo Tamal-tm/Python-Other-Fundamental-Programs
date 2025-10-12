@@ -8,7 +8,7 @@ print("********************")
 # Octal, Hexadecimal, Binary (8,16,2)
 
 decimal=int(input("Enter a number: "))
-print("Conversion of deicmal number.", decimal, "is: ")
+print("Conversion of decimal number.", decimal, "is: ")
 print(bin(decimal),"in binary")
 print(oct(decimal),"in octal")
 print(hex(decimal),"in hexadecimal")
@@ -22,4 +22,5 @@ def ConvertBinary(n):
 
 num=int(input('Enter number for conversion:'))
 (ConvertBinary(num))
+
 
