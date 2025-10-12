@@ -13,7 +13,7 @@ print(bin(decimal),"in binary")
 print(oct(decimal),"in octal")
 print(hex(decimal),"in hexadecimal")
 
-# Using recursion
+# Using recursion.
 
 def ConvertBinary(n):
     if n>1:
@@ -22,6 +22,7 @@ def ConvertBinary(n):
 
 num=int(input('Enter number for conversion:'))
 (ConvertBinary(num))
+
 
 
 
