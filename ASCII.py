@@ -3,7 +3,7 @@
 char="a"
 print("ASCII VALUE of",char, "is", ord(char))
 
-print("******************")
+print("*****************")
 
 # Octal, Hexadecimal, Binary (8,16,2)
 
@@ -22,6 +22,7 @@ def ConvertBinary(n):
 
 num=int(input('Enter number for conversion:'))
 (ConvertBinary(num))
+
 
 
 
