@@ -1,6 +1,6 @@
 # ASCII VALUE
 
-char="a"
+char="A"
 print("ASCII VALUE of",char, "is", ord(char))
 
 print("*****************")
@@ -22,6 +22,7 @@ def ConvertBinary(n):
 
 num=int(input('Enter number for conversion:'))
 (ConvertBinary(num))
+
 
 
 
