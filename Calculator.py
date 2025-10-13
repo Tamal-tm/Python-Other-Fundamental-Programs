@@ -1,4 +1,4 @@
-print("Mini-Calculator.")
+print("Mini Calculator.")
 
 num1=float(input("Enter 1st number here: "))
 num2=float(input("Enter 2nd number here: \n"))
@@ -17,5 +17,6 @@ elif choice ==4:
     print(num1/num2)
 else:
     print("Invalid input")
+
 
 
