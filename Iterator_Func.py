@@ -1,4 +1,4 @@
-nums=[1,2,3,4,5]
+nums=[1,2,3,4,5] #
 
 iterate=iter(nums)
 print(iterate.__next__())
@@ -27,3 +27,4 @@ FF=Fantastic_Five()
 for i in FF:
 
     print(i)
+
