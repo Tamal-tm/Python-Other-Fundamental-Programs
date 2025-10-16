@@ -11,7 +11,7 @@ class Fantastic_Five:
     def __init__(self):
         self.num=1
 
-    def __iter__(self): # Object
+    def __iter__(self): # Object.
         return self
     
     def __next__(self): # Will call next number. 
@@ -27,6 +27,7 @@ FF=Fantastic_Five()
 for i in FF:
     
     print(i)
+
 
 
 
