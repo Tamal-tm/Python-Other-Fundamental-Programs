@@ -4,6 +4,7 @@ iterate=iter(nums)
 
 print(iterate.__next__())
 print(iterate.__next__())
+
 print(next(iterate))
 
 # Creating an iterator.
@@ -28,6 +29,7 @@ FF=Fantastic_Five()
 for i in FF:
     
     print(i)
+
 
 
 
