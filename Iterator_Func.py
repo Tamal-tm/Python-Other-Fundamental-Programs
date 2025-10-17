@@ -25,8 +25,8 @@ class Fantastic_Five:
 FF=Fantastic_Five()
 
 for i in FF:
-    
     print(i)
+
 
 
 
