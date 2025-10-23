@@ -11,6 +11,7 @@ print(x.__next__())
 print(x.__next__())
 '''
 '''
+
 def my_gen(n):
     a=0
     while a<n:
@@ -45,6 +46,7 @@ print(x.__next__())
 for i in x:
 
     print(i)
+
 
 
 
