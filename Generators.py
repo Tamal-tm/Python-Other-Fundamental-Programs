@@ -3,6 +3,8 @@ def my_gen():
     yield 1
     yield 2
     yield 4
+
+    
 x=my_gen()
 print(x.__next__())
 print(x.__next__())
@@ -43,5 +45,6 @@ print(x.__next__())
 for i in x:
 
     print(i)
+
 
 
